@@ -1,0 +1,28 @@
+ZIP is a common way to make files smaller and put them together by applying a compression algorithm. Sometimes, people protect these ZIP files with passwords to keep them safe. However, if you forget or lose the password, it can be annoying and take a lot of time to crack ZIP password. In such cases.
+
+How to Recover Password of a ZIP Archive?
+
+Our ZIP password cracker tool is simple and can recover passwords from ZIP archives in a few simple steps, as mentioned below.
+All you need is the zip file and a dictinary files. Two are provided in the directory.
+
+Example:
+./zipcracker pack.zip NORM\&R.DIC
+
+How to install:
+Install libzip-dev by entering the following commands in the terminal:
+
+sudo apt update
+sudo apt install libzip-dev
+
+Description:
+
+library for reading, creating, and modifying zip archives (development)
+
+libzip is a C library for reading, creating, and modifying zip archives. Files can be added from data buffers, files, or compressed data copied directly from other zip archives. Changes made without closing the archive can be reverted. . This package contains the static libraries and headers for developing applications that use the libzip library API.
+
+You can compile the code with:
+g++ -O3 *.cpp -o zipcracker -lzip
+
+
+
+    
